@@ -1,0 +1,78 @@
+/*---------------------------
+** Counter Area Start
+---------------------------*/
+
+.counter-area{
+  padding: 100px 0px 110px;
+  .fun-box{
+    .icon{
+      color:  $dark-color;
+      font-size: 30px;
+      @include main-gradint1;
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      border-radius: 3px;
+      text-align: center;
+      line-height: 70px;
+      color: #fff;
+      position: relative;
+      margin-bottom: 16px;
+      transition: $transition;
+      &::after{
+        position: absolute;
+        content: " ";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        
+        transform: rotate(45deg);
+        z-index: -5;
+        transition: $transition;
+      }
+    }
+    .counter-wrapper{
+      display: block;
+      margin-top: 3px;
+      .counter{
+        font-size: 36px;
+        line-height: 50px;
+        color: $dark-color;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 0px;
+      }
+      .math{
+        color:  $dark-color;
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 5px;
+        position: relative;
+        top: -2px;
+      }
+    }
+    .categori{
+      font-size: 20px;
+      line-height: 30px;
+      color: $dark-color;
+      font-weight: 500;
+      margin-top: 7px;
+    }
+    &:hover{
+      .icon{
+        border-radius: 50%;
+        &::after{
+          box-shadow: 0px 0px 0px 8px rgba(#75b2f0, .3), 0px 0px 0px 16px rgba(#75b2f0, .3);
+        }
+      }
+    }
+  }
+}
+
+
+
+/*---------------------------
+** Counter Area End
+---------------------------*/

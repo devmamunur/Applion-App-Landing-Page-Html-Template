@@ -1,0 +1,196 @@
+
+/*-----------------------------
+** How It Work Area Start
+------------------------------*/
+
+.howitwork{
+  padding: 110px 0px 120px;
+  position: relative;
+  .bgshape{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 500px;
+    z-index: -9;
+  }
+  .bgshape1{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  .bgshape2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+  }
+  .shape1{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    max-width: 130px;
+    animation: shapeani1 5s linear infinite;
+  }
+  .shape2{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    max-width: 70px;
+    animation: shapeani1 4s linear infinite;
+  }
+  .section-title{
+    margin-bottom: 52px;
+  }
+  .left-area{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px 120px;
+    .img{
+      display: inline-block;
+      position: relative;
+      width: 300px;
+      padding: 18px;
+      &::before{
+        position: absolute;
+        content: " ";
+        width: 100%;
+        height: 100%;
+        background: url(../images/frem.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 2px;
+        left: 0;
+        z-index: 1;
+      }
+      &::after{
+        position: absolute;
+        content: " ";
+        width: 250px;
+        height: 250px;
+        background: #75b2f0;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+        animation: b-shadow 2s linear infinite;
+      }
+    }
+  }
+.right-area{
+  padding-left: 80px;
+    .item{
+      &:focus{
+        outline: 0px;
+      }
+      .content{
+        padding: 23px 25px 25px 36px;
+        margin: 10px 10px;
+        position: relative;
+        display: flex;
+        &::after{
+          position: absolute;
+          content: " ";
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: -9;
+        }
+        .left-content{
+          margin-right: 35px;
+          display: flex;
+          align-self: center;
+          .icon{
+            color:  $dark-color;
+            font-size: 20px;
+            @include main-gradint1(100deg);
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 4px;
+            color: #fff;
+            position: relative;
+            transition: $transition-long;
+            &::after{
+              position: absolute;
+              content: " ";
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+              
+              transform: rotate(45deg);
+              z-index: -5;
+              transition: $transition-long;
+            }
+          }
+          
+        }
+        .right-content{
+          flex: 1;
+          .title{
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+          }
+          .text{
+            margin-bottom: 0px;
+          }
+        }
+        
+      }
+      &.slick-slide.slick-current.slick-active{
+        .content{
+          &::after{
+          background: #fff;
+          box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.15);
+          }
+          .icon{
+            border-radius: 50%;
+            &::after{
+              box-shadow: 0px 0px 0px 5px rgba(#75b2f0, .3), 0px 0px 0px 10px rgba(#75b2f0, .3);
+            }
+          }
+        }
+      }
+    }
+    .slick-arrow{
+      color: $descr-color;
+       font-size: 18px;
+       position: absolute;
+       @include transform(translateY(-50%));
+       text-align: center;
+       width: 50px;
+       height: 50px;
+       line-height: 50px;
+       border-radius: 50%;
+       background: $white;
+       margin-left: 10px;
+       color: #777;
+       @include box-shadow(0px, 0px, 30px, rgba(0, 0, 0, 0.20), $inset: false);
+       &:hover{
+        color: $white;
+        @include main-gradint1;
+       }
+       &.slidPrv4{
+         top: -35px;
+       }
+       &.slidNext4{
+         bottom: -84px;
+         line-height: 53px;
+       }
+
+    }
+
+
+}
+
+}
+
+    

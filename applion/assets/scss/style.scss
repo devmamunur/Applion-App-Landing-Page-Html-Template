@@ -1,0 +1,117 @@
+
+/*
+--------------------------
+	Css Indexing
+--------------------------
+	Table of Css Content
+	------- *** -------
+
+--------------------------
+** @typography
+--------------------------
+** Normalize
+--------------------------
+** Global style
+--------------------------
+**  Preloader Css
+--------------------------
+**  breadcrumb-area
+--------------------------
+** Main Menu Area Start
+--------------------------
+** Hero Area Start
+--------------------------
+** feature Area Start
+--------------------------
+** How It Work Area Start
+--------------------------
+** Why Chose Us Area Start
+--------------------------
+** Video Area Start
+--------------------------
+** Counter Area Start 
+--------------------------
+** app-screenshot-area
+--------------------------
+** Testimonial Area Start
+--------------------------
+** Pricing Area Start 
+--------------------------
+** Download Area Start
+--------------------------
+** Team Area Start
+--------------------------
+** FAQ Area Start  
+--------------------------
+** Blog Area Start
+--------------------------
+** Gate In Tuch Area Area Start
+--------------------------
+** Contact Area Start
+--------------------------
+** Footer Area Start
+--------------------------
+** Blog & Blog details Area Start
+--------------------------
+** Color 2 CSS
+--------------------------
+** Color 3 CSS
+--------------------------
+** Color 4 CSS
+--------------------------
+** Color 5 CSS
+--------------------------
+** Home 2 Css Start
+--------------------------
+** Home 3 Css Start
+--------------------------
+**  Home 4 Css Start
+--------------------------
+** Home 5 Css Start
+--------------------------
+** Home 6 Css Start
+--------------------------
+
+
+*/
+
+
+
+
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_normalize";
+@import "main/_global";
+
+//=Section scss
+@import "sections/_main-menu";
+@import "sections/_hero-area";
+@import "sections/_feature";
+@import "sections/_howitwork";
+@import "sections/_why-use-this-app";
+@import "sections/_video";
+@import "sections/_counter";
+@import "sections/_app-screenshort";
+@import "sections/_testimonial";
+@import "sections/_pricing";
+@import "sections/_download";
+@import "sections/_team.scss";
+@import "sections/_faq";
+@import "sections/_blog";
+@import "sections/_get-intuch";
+@import "sections/_contact";
+@import "sections/_footer";
+
+//=Page scss
+@import "pages/_blog&blogdetails";
+@import "pages/_color_2";
+@import "pages/_color_3";
+@import "pages/_color_4";
+@import "pages/_color_5";
+@import "pages/_home2";
+@import "pages/_home3";
+@import "pages/_home4";
+@import "pages/_home5";
+@import "pages/_home6";
+
+

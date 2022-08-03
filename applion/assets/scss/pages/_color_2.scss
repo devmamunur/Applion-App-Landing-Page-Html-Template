@@ -1,0 +1,134 @@
+/*-----------------------------
+** Color 2 CSS
+------------------------------*/
+
+.color2{
+  .mybtn2,
+  .mybtn1,
+  .download-app .download-option li .option,
+  .team .team-member .member-data,
+  .get-intuch .newsleatetter .submitbtn
+  {
+    background-image: -moz-linear-gradient(55deg, #75b2f0, #75f094, #75f094, #75b2f0);
+    background-image: -webkit-linear-gradient(55deg,#75b2f0, #75f094, #75f094, #75b2f0);
+    background-image: -ms-linear-gradient(55deg, #75b2f0, #75f094, #75f094, #75b2f0);
+    background-image: linear-gradient(55deg, #75b2f0, #75f094, #75f094, #75b2f0);
+  }
+  .feature .box .inner-box .icon,
+  .howitwork .right-area .item .content .left-content .icon,
+  .section-title .title span,
+  .why-use-this-app .content .feature-list li p:hover i,
+  .video-play-btn i,
+  .video .video-wrapper .video-box .overly,
+  .counter-area .fun-box .icon,
+  .swiper-pagination-bullet-active,
+  .pricing .pricing-tab .tab-menu #my-tab .nav-item .nav-link.active, 
+  .pricing .pricing-tab .tab-menu #my-tab .nav-item .nav-link:hover,
+  .pricing .price-box .price-rate,
+  .download-app .rating-wraper .review-area .right .reating-poll li .progress .progress-bar,
+  .team .owl-controls .owl-nav div.owl-prev::after,
+  .team .owl-controls .owl-nav div.owl-next::after,
+  .team .team-member .social,
+  .contact .info-contact li .info-box .left .icon,
+  .twitter-widget .owl-controls .owl-nav div.owl-prev::after,
+  .twitter-widget .owl-controls .owl-nav div.owl-next::after,
+  .testimonial-area .testimonial-slider:hover .owl-controls .owl-nav div.owl-next:hover, 
+  .testimonial-area .testimonial-slider:hover .owl-controls .owl-nav div.owl-prev:hover,
+  .feature:hover .owl-controls .owl-nav div.owl-next:hover, 
+  .feature:hover .owl-controls .owl-nav div.owl-prev:hover,
+  .navigation .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
+  .navigation .navbar #mainmenu ul .nav-item .nav-link.active::before,
+  .navigation .navbar #mainmenu ul .nav-item .nav-link::before,
+  .preloader-inner,
+  .bottomtotop i
+  {
+    background-image: -moz-linear-gradient(55deg, #75b2f0, #75f094);
+    background-image: -webkit-linear-gradient(55deg,#75b2f0, #75f094);
+    background-image: -ms-linear-gradient(55deg, #75b2f0, #75f094);
+    background-image: linear-gradient(55deg, #75b2f0, #75f094);
+  }
+  .testimonial-area .testimonial-slider .client .client-image,
+  .hero-area .right-area .img::after
+   {
+    border: 4px solid #75b2f0;
+}
+
+
+@-webkit-keyframes b-shadow2 {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); }
+  50% {
+    -webkit-box-shadow: 0px 0px 0px 50px rgba(#75b2f0, 0.3), 0px 0px 0px 75px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3), 0px 0px 0px 125px rgba(#75b2f0, 0.3), 0px 0px 0px 150px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 50px rgba(#75b2f0, 0.3), 0px 0px 0px 75px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3), 0px 0px 0px 125px rgba(#75b2f0, 0.3), 0px 0px 0px 150px rgba(#75b2f0, 0.3); }
+  100% {
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); } }
+
+@-moz-keyframes b-shadow2 {
+  0% {
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); }
+  50% {
+    box-shadow: 0px 0px 0px 50px rgba(#75b2f0, 0.3), 0px 0px 0px 75px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3), 0px 0px 0px 125px rgba(#75b2f0, 0.3), 0px 0px 0px 150px rgba(#75b2f0, 0.3); }
+  100% {
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); } }
+
+@-o-keyframes b-shadow2 {
+  0% {
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); }
+  50% {
+    box-shadow: 0px 0px 0px 50px rgba(#75b2f0, 0.3), 0px 0px 0px 75px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3), 0px 0px 0px 125px rgba(#75b2f0, 0.3), 0px 0px 0px 150px rgba(#75b2f0, 0.3); }
+  100% {
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); } }
+
+@keyframes b-shadow2 {
+  0% {
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); }
+  50% {
+    -webkit-box-shadow: 0px 0px 0px 50px rgba(#75b2f0, 0.3), 0px 0px 0px 75px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3), 0px 0px 0px 125px rgba(#75b2f0, 0.3), 0px 0px 0px 150px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 50px rgba(#75b2f0, 0.3), 0px 0px 0px 75px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3), 0px 0px 0px 125px rgba(#75b2f0, 0.3), 0px 0px 0px 150px rgba(#75b2f0, 0.3); }
+  100% {
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 20px rgba(#75b2f0, 0.3), 0px 0px 0px 40px rgba(#75b2f0, 0.3), 0px 0px 0px 60px rgba(#75b2f0, 0.3), 0px 0px 0px 80px rgba(#75b2f0, 0.3), 0px 0px 0px 100px rgba(#75b2f0, 0.3); } }
+
+ 
+  .feature .owl-item.active.center .inner-box .icon::after,
+  .feature .owl-item .inner-box:hover .icon::after
+     {
+      -webkit-box-shadow: 0px 0px 0px 8px rgba(#75b2f0, 0.3), 0px 0px 0px 16px rgba(#75b2f0, 0.3);
+      box-shadow: 0px 0px 0px 8px rgba(#75b2f0, 0.3), 0px 0px 0px 16px rgba(#75b2f0, 0.3);
+  }
+  .howitwork .right-area .item.slick-slide.slick-current.slick-active .content .icon::after {
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(#75b2f0, 0.3), 0px 0px 0px 10px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 5px rgba(#75b2f0, 0.3), 0px 0px 0px 10px rgba(#75b2f0, 0.3);
+  }
+  .counter-area .fun-box:hover .icon::after {
+    -webkit-box-shadow: 0px 0px 0px 8px rgba(#75b2f0, 0.3), 0px 0px 0px 16px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 8px rgba(#75b2f0, 0.3), 0px 0px 0px 16px rgba(#75b2f0, 0.3);
+  }
+  .pricing .price-box:hover .price-rate::after {
+    -webkit-box-shadow: 0px 0px 0px 8px rgba(#75b2f0, 0.3), 0px 0px 0px 16px rgba(#75b2f0, 0.3);
+    box-shadow: 0px 0px 0px 8px rgba(#75b2f0, 0.3), 0px 0px 0px 16px rgba(#75b2f0, 0.3);
+}
+.contact .info-contact li .info-box .left .icon::after {
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(#75b2f0, 0.3), 0px 0px 0px 10px rgba(#75b2f0, 0.3);
+  box-shadow: 0px 0px 0px 5px rgba(#75b2f0, 0.3), 0px 0px 0px 10px rgba(#75b2f0, 0.3);
+}
+
+  .hero-area .right-area .img::after,
+  .howitwork .left-area .img::after
+   {
+    -webkit-animation: b-shadow2 2s linear infinite;
+    -moz-animation: b-shadow2 2s linear infinite;
+    animation: b-shadow2 2s linear infinite;
+}
+
+
+
+
+
+
+
+
+  }

@@ -1,0 +1,141 @@
+/*---------------------------
+** Download Area Start
+---------------------------*/
+
+.download-app{
+  position: relative;
+  padding: 110px 0px 120px;
+  .bgshape1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9;
+
+  }
+  .bgshape2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+  }
+  .section-title{
+    text-align: left;
+    margin-bottom: 48px;
+    p{
+      margin-left: 0px;
+      max-width: 100%;
+    }
+  }
+  .left-area{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    img{
+      position: absolute;
+      bottom: -120px;
+      z-index: -3;
+    }
+  }
+  .rating-wraper{
+    .title{
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 600;
+      margin-bottom: 17px;
+    }
+    .review-area{
+      display: flex;
+      .left{
+        text-align: center;
+        .rate{
+          font-size: 26px;
+          font-weight: 600;
+          margin-bottom: 0px;
+        }
+        .stars{
+          padding-left: 0px;
+          margin: 0px 0px 0px;
+          li{
+            display: inline-block;
+            color: yellowgreen;
+            font-size: 12px;
+            margin-right: -2px;
+          }
+        }
+        .total-download{
+          font-size: 14px;
+        }
+      }
+      .right{
+        flex: 1;
+        .reating-poll{
+          li{
+            list-style: none;
+            margin-bottom: 3px;
+            display: flex;
+            span{
+              line-height: 14px;
+              font-size: 14px;
+              margin-right: 10px;
+            }
+            .progress{
+              flex: 1;
+              height: 10px;
+              border-radius: 50px;
+              .progress-bar{
+                @include main-gradint1;
+                border-radius: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .download-option{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    li{
+      display: inline-block;
+      margin-right: 30px;
+      .option{
+        display: inline-block;
+        display: flex;
+        @include btn-gradint;
+        background-size: 400% 100%;
+        padding: 12px 30px;
+        border-radius: 3px;
+        color: #fff;
+        transition: all .3s linear;
+        &:hover{
+          background-position: 100% 0;
+        }
+        .left{
+          margin-right: 17px;
+          i{
+            font-size: 30px;
+          }
+        }
+        
+        span{
+          font-size: 14px;
+        }
+        p{
+          margin-bottom: 0px;
+          font-size: 18px;
+          color: #fff;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,248 @@
+/*-----------------------------
+** Home 4 Css Start
+------------------------------*/
+
+.home4{
+  &.color1{
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before 
+    {
+      background-image: linear-gradient(to right, #ec77ab , #7873f5);
+    }
+  }
+  .hero-area{
+    background: url(../images/bgimg/bgimg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+      z-index: 0;
+    }
+  }
+  .why-use-this-app{
+    background: url(../images/bgimg/bgimg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+      z-index: 0;
+    }
+
+  }
+  .testimonial-area{
+    background: url(../images/bgimg/bgimg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+      z-index: 0;
+    }
+
+  }
+  .download-app{
+    background: url(../images/bgimg/bgimg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+      z-index: 0;
+    }
+   .bgshape1 {
+      z-index: 0;
+  }
+ .left-area img {
+      z-index: 0;
+  }
+
+  }
+  .get-intuch{
+    background: url(../images/bgimg/bgimg5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+      z-index: 0;
+    }
+
+  }
+  .footer{
+    background: url(../images/bgimg/bgimg6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+      z-index: 0;
+    }
+
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include main-gradint1;
+    z-index: -99;
+    opacity: .9;
+  }
+ 
+  .shape1,
+  .shape2,
+  .navigation .navbar .navbar-brand img,
+  .footer .footer-info-area .footer-logo img
+  {
+    filter: brightness(0) invert(1);
+  }
+  .navigation.stiky-nav  .navbar .navbar-brand img{
+    filter: unset;
+  }
+  .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before, 
+  .navigation .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
+  .navigation .navbar #mainmenu ul .nav-item .nav-link.active::before {
+    background-image: linear-gradient(55deg, #fff, #fff);
+}
+
+
+
+
+  .hero-area .right-area .img::after{
+      display: none;
+    }
+    .navigation .navbar #mainmenu ul .nav-item .nav-link,
+    .hero-area .left-content .content .title,
+    .hero-area .left-content .content .subtitle,
+    .why-use-this-app .section-title .title,
+    .why-use-this-app .section-title p,
+    .testimonial-area .section-title .title,
+    .testimonial-area .section-title p,
+    .download-app .section-title .title,
+    .download-app .section-title p,
+    .get-intuch .section-title .title,
+    .get-intuch .section-title p,
+    .why-use-this-app .content .feature-list li p,
+    .download-app .rating-wraper .title,
+    .download-app .rating-wraper .review-area .left .rate,
+    .download-app .rating-wraper .review-area .left .total-download,
+    .download-app .rating-wraper .review-area .right .reating-poll li span,
+    .footer-widget .title,
+    .footer .footer-info-area .text p,
+    .footer-widget ul li a,
+    .twitter-widget .content p,
+    .twitter-widget .content a,
+    .footer .copy-bg p,
+    .footer .copy-bg a
+    {
+      color: #fff;
+    }
+    .why-use-this-app .section-title .title span,
+    .get-intuch .content .title span
+    {
+      -webkit-background-image: -webkit-linear-gradient(55deg, #fff, #fff);
+      -moz-background-image: linear-gradient(55deg, #fff, #fff);
+      background-image: -o-linear-gradient(35deg, #fff, #fff);
+      background-image: linear-gradient(55deg, #fff, #fff);
+    }
+    .why-use-this-app .content .feature-list li p{
+      i{
+        background: #fff;
+        color: #333;
+      }
+      &:hover{
+        i{
+          @include main-gradint1;
+          color: #fff;
+        }
+      }
+    } 
+    .navigation {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      &.stiky-nav{
+        border: 0px;
+        .navbar #mainmenu ul .nav-item .nav-link{
+          color: $dark-color;
+        }
+      }
+    }
+    .get-intuch .newsleatetter input {
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      &::placeholder{
+        color: #fff;
+      }
+  }
+  .support-link-widget .link-list li,
+   .use-full-link-widget .link-list li {
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.5);
+    &:last-child{
+      border-bottom: 0px;
+    }
+  }
+  .footer .copy-bg {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);    
+    z-index: 9;
+    position: inherit;
+ 
+  }
+
+
+  &.color2{
+    .overlay,
+    .why-use-this-app .content .feature-list li p:hover i,
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before 
+    {
+      background-image: -moz-linear-gradient(55deg, #75b2f0, #75f094);
+      background-image: -webkit-linear-gradient(55deg,#75b2f0, #75f094);
+      background-image: -ms-linear-gradient(55deg, #75b2f0, #75f094);
+      background-image: linear-gradient(55deg, #75b2f0, #75f094);
+    }
+    .download-app .rating-wraper .review-area .left .stars li{
+      color: yellow;
+    }
+  }
+  &.color3{
+    .overlay,
+    .why-use-this-app .content .feature-list li p:hover i,
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before
+    {
+      background-image: -webkit-linear-gradient(to right, #b31217, #e52d27);  
+      background-image: -moz-linear-gradient(to right, #b31217, #e52d27);  
+      background-image: linear-gradient(to right, #b31217, #e52d27);
+    }
+  }
+  &.color4{
+    .overlay,
+    .why-use-this-app .content .feature-list li p:hover i,
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before
+    {
+      background-image: -webkit-linear-gradient(55deg, #00c6fb , #005bea);
+      background-image: -moz-linear-gradient(55deg, #00c6fb , #005bea);
+      background-image: linear-gradient(55deg, #00c6fb , #005bea);
+    }
+  }
+  &.color5{
+    .overlay,
+    .why-use-this-app .content .feature-list li p:hover i,
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
+    .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before
+    {
+      background-image: -webkit-linear-gradient(to right, #ff4e50, #f9d423);
+      background-image: -moz-linear-gradient(to right, #ff4e50, #f9d423);
+      background-image: linear-gradient(to right, #ff4e50, #f9d423);
+    }
+  }
+}
+

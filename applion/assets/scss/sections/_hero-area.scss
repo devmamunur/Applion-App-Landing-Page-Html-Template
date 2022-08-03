@@ -1,0 +1,76 @@
+/*-----------------------------
+** Hero Area Start
+------------------------------*/
+
+.hero-area {
+  position: relative;
+  padding: 195px 0px 120px;
+  .bgimg{
+    position: absolute;
+    bottom: 0%;
+    width: auto;
+  }
+  .shape1{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    max-width: 130px;
+    animation: shapeani1 5s linear infinite;
+  }
+  .shape2{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    max-width: 70px;
+    animation: shapeani1 4s linear infinite;
+  }
+  .left-content{
+    .content {
+       .title {
+         font-size: 46px;
+         line-height: 58px;
+         color: $dark-color;
+         font-weight: 600;
+       }
+       .subtitle {
+         font-size: 18px;
+         line-height: 28px;
+         color: $dark-color;
+         margin-top: 24px;
+       }
+       .links {
+         margin-top: 46px;
+         padding-right: 15px;
+         a{
+         margin-left: 0px;
+         &.left-link{
+           margin-right: 14px;
+         }
+         }
+       }
+       }
+  }
+  .right-area{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px 20px;
+    .img{
+      display: inline-block;
+      position: relative;
+      &::after{
+        position: absolute;
+        content: " ";
+        width: 300px;
+        height: 300px;
+        background: #ec77ab;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+        animation: b-shadow 2s linear infinite;
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+/* -------------------------------------
+app-screenshot-area
+----------------------------------------- */
+
+.app-screenshot-area{
+padding: 110px 0px 113px;
+position: relative;
+.bgshape{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  max-width: 500px;
+  z-index: -9;
+}
+.shape1{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  max-width: 130px;
+  animation: shapeani1 5s linear infinite;
+}
+.shape2{
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  max-width: 70px;
+  animation: shapeani1 4s linear infinite;
+}
+}
+
+.preview-icon {
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.preview-icon i {
+  border-radius: 70px;
+  color: #fff;
+  font-size: 30px;
+  height: 70px;
+  left: 0;
+  line-height: 70px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 70px;
+}
+
+.swiper-slide.swiper-slide-active img{
+  border-radius: 30px;
+}
+.app-screenshot-area .slick-dots {
+  bottom: -70px;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-bottom: 60px;
+  position: relative;
+  padding-top: 10px;
+}
+.swiper-container .frem{
+position: absolute;
+width: 297px;
+z-index: 99;
+left: 50%;
+transform: translateX(-50%);
+top:0px;
+}
+
+.swiper-slide {
+  width: 297px;
+  height: auto;
+  padding: 0 15px;
+}
+
+.swiper-slide img {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: $transition;
+}
+
+.swiper-slide .slider-image .preview-icon {
+  z-index: -1;
+  width: calc(100% - 30px);
+}
+
+.swiper-slide.swiper-slide-active .slider-image:hover .preview-icon {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  z-index: 1;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #75b2f0;
+  border-radius: 100%;
+  display: inline-block;
+  height: 12px;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  width: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  @include main-gradint1;
+  border: medium none;
+  height: 12px;
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  width: 12px;
+}

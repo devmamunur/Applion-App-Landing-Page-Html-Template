@@ -1,0 +1,174 @@
+/*---------------------------
+** Team Area Start
+---------------------------*/
+
+.team{
+  padding: 110px 0px 179px;
+  position: relative;
+  overflow: hidden;
+  .bgshape{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    max-width: 500px;
+    z-index: -9;
+  }
+  .shape1{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    max-width: 130px;
+    animation: shapeani1 5s linear infinite;
+  }
+  .shape2{
+    position: absolute;
+    top: 130px;
+    right: 150px;
+    max-width: 70px;
+    animation: shapeani1 4s linear infinite;
+  }
+  .owl-stage-outer{
+    .owl-stage{
+      padding: 26px 0px;
+    }  
+  }
+  .section-title{
+    margin-bottom: 30px;
+  }
+  .team-member{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    z-index: 2;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: $transition-long;
+    .member-pic{
+      img{
+        width: 100%;
+      }
+    }
+    .member-data{
+      @include btn-gradint;
+      background-size: 400% 100%;
+      text-align: center;
+      padding: 18px 20px 17px;
+      @include transition(.5s);
+      .title{
+        font-size: 20px;
+        line-height: 30px;
+        color: $white;
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+      .position{
+        color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0px;
+      }
+    }
+    .social{
+      @include main-gradint1;
+      position: absolute;
+      right: -50px;
+      top: 15px;
+      border-radius: 5px 0px 0px 5px;
+      @include transition(.5s);
+      ul{
+        padding-left: 0px;
+        margin-bottom: 0px;
+        li{
+          list-style: none;
+          a{
+            text-decoration: none;
+            width: 35px;
+            height: 35px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 35px;
+            display: block;
+            color: $white;
+            
+          }
+        }
+      }
+    }
+    &:hover{
+      .member-data{
+        background-position: 100% 0;
+      }
+    }
+  }
+  .owl-controls{
+    display: block;
+    text-align: center;
+    .owl-nav {
+      position: absolute;
+      z-index: 9999;
+      bottom: -59px;
+      left: 50%;
+      @include transform(translateX(-50%));
+      display: inline-block;
+      div{
+        font-size: 0px;
+        position: relative;
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        &.owl-next{
+          margin-left: 25px;
+          &::after{
+            position: absolute;
+            content: "\f054"; 
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            font-size: 16px;
+            top: 0;
+            left: 0;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: #fff;
+            border-radius: 50%;
+            background: #fff;
+            @include main-gradint1;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+          }
+        }
+        &.owl-prev{
+          margin-left: -25px;
+          &::after{
+            position: absolute;
+            content: "\f053"; 
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            font-size: 16px;
+            top: 0;
+            left: 0;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: #fff;
+            border-radius: 50%;
+            background: #fff;
+            @include main-gradint1;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+          }
+        }
+        
+      }
+    }
+    }
+
+    .owl-item:hover .team-member{
+      .social{
+        right: 0px;
+      }
+    }
+  }
+
+/*---------------------------
+** Team Area End
+---------------------------*/

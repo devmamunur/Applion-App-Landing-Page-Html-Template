@@ -1,0 +1,175 @@
+/*-----------------------------
+** FAQ Area Start
+------------------------------*/
+
+.faq{
+  padding: 110px 0px 107px;
+  position: relative;
+  overflow: hidden;
+  .bgshape{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 500px;
+    z-index: -9;
+  }
+  .bgshape1{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  .bgshape2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+  }
+  .shape1{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    max-width: 130px;
+    animation: shapeani1 5s linear infinite;
+  }
+  .shape2{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    max-width: 70px;
+    animation: shapeani1 4s linear infinite;
+  }
+  .section-title{
+    .title{
+      span{
+        @include animate(text-color, 5s, ease-out, alternate, infinite);
+      }
+    }
+  }
+
+
+  .round-shape8{
+    position: absolute;
+    top: 60%;
+    width: 80px;
+    height: 80px;
+    left: 50px;
+    z-index: -9;
+    @include animate(shapeani1, 4.0s, ease-out, alternate, infinite);
+  }
+  .round-shape3{
+    position: absolute;
+    top: 85%;
+    left: 0px;
+    z-index: -9;
+    @include animate(shapeani1, 4.4s, ease-out, alternate, infinite);
+  }
+  .round-shape5{
+    position: absolute;
+    top: 70%;
+    left: 130px;
+    width: 100px;
+    height: 100px;
+    z-index: -9;
+    @include animate(shapeani1, 4.8s, ease-out, alternate, infinite);
+  }
+  .round-shape7{
+    position: absolute;
+    top: 51%;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    z-index: -9;
+    @include animate(shapeani1, 5.0s, ease-out, alternate, infinite);
+  }
+
+  .accordion{
+    .panel{
+      margin-bottom: 20px;
+      background: $white;
+      border-radius: 3px;
+      @include box-shadow(0px, 8px, 25px, rgba($dark-color, .08), $inset: false);
+      .panel-body{
+        padding: 4px 20px 7px;
+      }
+    }
+    .panel-title{
+      display: block;
+      width: 100%;
+      background: $white;    
+      padding: 15px 20px 15px 20px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 0px;
+      color: $dark-color;
+      position: relative;
+      border-radius: 3px;
+      cursor: pointer;
+      &::after{
+        position: absolute;
+        content: "";
+        width: 40px;
+        height:100%;
+        border-radius: 3px 0px 0px 3px;
+        right: 0;
+        top: 0;
+        text-align: center;
+      }
+      &::before{
+        position: absolute;
+        font-family: "Font Awesome 5 Free";
+        content: "\f067";
+        font-weight: 900;
+        right: 0;
+        top: 50%;
+        @include transform(translateY(-50%));
+        width: 40px;
+        text-align: center;
+        z-index: 1;
+        font-size: 16px;
+        @include transition();
+      }
+      &[aria-expanded="true"]{
+        &::before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f068";
+        font-weight: 900;
+        }
+      }
+    }
+  }
+  .image-wrapper{
+    display: block;
+    width: 100%;
+    .image{
+      position: relative;
+      display: block;
+      .single-object{
+        position: absolute;
+        height: 320px;
+        width: auto;
+        z-index: -9;
+        top: 40%;
+        left: 30%;
+        img{
+          width: auto;
+          height: 100%;
+           @include animate(shapeani1, 4.9s, ease-out, alternate, infinite);
+        }
+      }
+      .object{
+        display: block;
+        text-align: center;
+        img{
+         position: relative;
+         display: inline-block;
+         z-index: -991;
+        }
+      }
+    }
+  }
+
+}
+
+
+
