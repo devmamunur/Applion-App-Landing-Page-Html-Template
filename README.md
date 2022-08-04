@@ -4,7 +4,7 @@
 - [Mamunur Rashid](https://mamunverse.com/)
 
 
-# Aplion - App Landing Aage | Html Template
+# Aplion - App Landing Page Html Template
 
 Aplion App Landing Page Template is fully responsive and mobile friendly app showcase HTML template. 
 Aplion is highly suitable App Landing Page and is the better way to present your app or product. 
